@@ -8,3 +8,13 @@
 /mnt/c/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.AssemblyInfo.cs
 /mnt/c/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.dll
 /mnt/c/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.pdb
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\first_csharp\bin\Debug\netcoreapp2.0\first_csharp.deps.json
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\first_csharp\bin\Debug\netcoreapp2.0\first_csharp.runtimeconfig.json
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\first_csharp\bin\Debug\netcoreapp2.0\first_csharp.runtimeconfig.dev.json
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\first_csharp\bin\Debug\netcoreapp2.0\first_csharp.dll
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\first_csharp\bin\Debug\netcoreapp2.0\first_csharp.pdb
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\first_csharp\obj\Debug\netcoreapp2.0\first_csharp.csproj.CoreCompileInputs.cache
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\first_csharp\obj\Debug\netcoreapp2.0\first_csharp.AssemblyInfoInputs.cache
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\first_csharp\obj\Debug\netcoreapp2.0\first_csharp.AssemblyInfo.cs
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\first_csharp\obj\Debug\netcoreapp2.0\first_csharp.dll
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\first_csharp\obj\Debug\netcoreapp2.0\first_csharp.pdb

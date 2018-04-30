@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "/home/firezdog/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Alex Leibowitz\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/first_csharp/first_csharp.csproj",
+      "projectUniqueName": "C:\\Users\\Alex Leibowitz\\Desktop\\Documents\\CodingDojo\\c#\\first_csharp\\first_csharp.csproj",
       "projectName": "first_csharp",
-      "projectPath": "/mnt/c/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/first_csharp/first_csharp.csproj",
-      "packagesPath": "/home/firezdog/.nuget/packages/",
-      "outputPath": "/mnt/c/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/first_csharp/obj/",
+      "projectPath": "C:\\Users\\Alex Leibowitz\\Desktop\\Documents\\CodingDojo\\c#\\first_csharp\\first_csharp.csproj",
+      "packagesPath": "C:\\Users\\Alex Leibowitz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alex Leibowitz\\Desktop\\Documents\\CodingDojo\\c#\\first_csharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/firezdog/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Alex Leibowitz\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
