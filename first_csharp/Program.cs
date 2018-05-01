@@ -37,9 +37,9 @@ namespace first_csharp
             //...not-using modulus?
             // int index = 1;
             // while (index < 256) {
-            //     double dividend15 = index/15;
-            //     double dividend5 = index/5;
-            //     double dividend3 = index/3;
+            //     int dividend15 = index/15;
+            //     int dividend5 = index/5;
+            //     int dividend3 = index/3;
             //     if (dividend15 * 15 == index) {
             //         Console.WriteLine("FizzBuzz");
             //     } else if (dividend5 * 5 == index) {
@@ -52,21 +52,21 @@ namespace first_csharp
             //     index++;
             // }
             //Generate 10 random values and output the correct word for each value.
-            Random ayn = new Random();
-            int index = 1;
-            while (index < 10) {
-                int random = ayn.Next(1,255);
-                if (random % 15 == 0) {
-                    Console.WriteLine("{0}: FizzBuzz", random);
-                } else if (random % 5 == 0) {
-                    Console.WriteLine("{0}: Buzz", random);
-                } else if (random % 3 == 0) {
-                    Console.WriteLine("{0}: Fizz", random);
-                } else {
-                    Console.WriteLine(random);
-                }
-                index++;
-            }
+            // Random ayn = new Random();
+            // int index = 1;
+            // while (index < 10) {
+            //     int random = ayn.Next(1,255);
+            //     if (random % 15 == 0) {
+            //         Console.WriteLine("{0}: FizzBuzz", random);
+            //     } else if (random % 5 == 0) {
+            //         Console.WriteLine("{0}: Buzz", random);
+            //     } else if (random % 3 == 0) {
+            //         Console.WriteLine("{0}: Fizz", random);
+            //     } else {
+            //         Console.WriteLine(random);
+            //     }
+            //     index++;
+            // }
         }
     }
 }

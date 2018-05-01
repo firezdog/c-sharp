@@ -1,0 +1,10 @@
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\basic13\bin\Debug\netcoreapp2.0\basic13.deps.json
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\basic13\bin\Debug\netcoreapp2.0\basic13.runtimeconfig.json
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\basic13\bin\Debug\netcoreapp2.0\basic13.runtimeconfig.dev.json
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\basic13\bin\Debug\netcoreapp2.0\basic13.dll
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\basic13\bin\Debug\netcoreapp2.0\basic13.pdb
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\basic13\obj\Debug\netcoreapp2.0\basic13.csproj.CoreCompileInputs.cache
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\basic13\obj\Debug\netcoreapp2.0\basic13.AssemblyInfoInputs.cache
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\basic13\obj\Debug\netcoreapp2.0\basic13.AssemblyInfo.cs
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\basic13\obj\Debug\netcoreapp2.0\basic13.dll
+C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\basic13\obj\Debug\netcoreapp2.0\basic13.pdb
