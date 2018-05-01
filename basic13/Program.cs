@@ -7,18 +7,18 @@ namespace basic13
     {
         static void Main(string[] args)
         {
-            // to255();
-            // oddTo255();
-            // runningSum();
-            // iterate(new object[] {"dog", 1, 7, "cat", 3.5});
-            // Console.WriteLine(findMax(new int[] {-1,5,7,3,111,-15}));
-            // Console.Write(string.Join(", ", oddArray()));
-            // Console.WriteLine(greater(6,new int[] {7,3,-1,100,2,7}));
-            // Console.Write(string.Join(", ", square(new int[] {-1,-1,-1,2,8})));
-            // Console.Write(string.Join(", ", nonNegative(new int[] {-1,-1,-1,2,8})));
-            // statistics(new int[] {1,2,3,4,5,6,7,8});
-            // Console.Write(string.Join(", ", shift(new int[] {1,2,3,4,5,6,7})));
-            // Console.Write(string.Join(", ", toString(new List<object> {-1,3,5,-2,7})));
+            to255();
+            oddTo255();
+            runningSum();
+            iterate(new object[] {"dog", 1, 7, "cat", 3.5});
+            Console.WriteLine(findMax(new int[] {-1,5,7,3,111,-15}));
+            Console.Write(string.Join(", ", oddArray()));
+            Console.WriteLine(greater(6,new int[] {7,3,-1,100,2,7}));
+            Console.Write(string.Join(", ", square(new int[] {-1,-1,-1,2,8})));
+            Console.Write(string.Join(", ", nonNegative(new int[] {-1,-1,-1,2,8})));
+            statistics(new int[] {1,2,3,4,5,6,7,8});
+            Console.Write(string.Join(", ", shift(new int[] {1,2,3,4,5,6,7})));
+            Console.Write(string.Join(", ", toString(new List<object> {-1,3,5,-2,7})));
         }
         public static List<object> toString(List<object> list){
             for (int i = 0; i < list.Count; i++) {
