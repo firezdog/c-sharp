@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/firezdog/Documents/CodingDojo/c-sharp/human/human.csproj",
-      "projectName": "human",
-      "projectPath": "/home/firezdog/Documents/CodingDojo/c-sharp/human/human.csproj",
+      "projectUniqueName": "/home/firezdog/Documents/CodingDojo/c-sharp/cards/cards.csproj",
+      "projectName": "cards",
+      "projectPath": "/home/firezdog/Documents/CodingDojo/c-sharp/cards/cards.csproj",
       "packagesPath": "/home/firezdog/.nuget/packages/",
-      "outputPath": "/home/firezdog/Documents/CodingDojo/c-sharp/human/obj/",
+      "outputPath": "/home/firezdog/Documents/CodingDojo/c-sharp/cards/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

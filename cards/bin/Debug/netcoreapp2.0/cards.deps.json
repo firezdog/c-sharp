@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "human/1.0.0": {
+      "cards/1.0.0": {
         "runtime": {
-          "human.dll": {}
+          "cards.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "human/1.0.0": {
+    "cards/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

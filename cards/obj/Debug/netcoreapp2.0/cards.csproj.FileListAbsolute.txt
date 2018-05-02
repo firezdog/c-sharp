@@ -1,0 +1,10 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/cards/bin/Debug/netcoreapp2.0/cards.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/cards/bin/Debug/netcoreapp2.0/cards.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/cards/bin/Debug/netcoreapp2.0/cards.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/cards/bin/Debug/netcoreapp2.0/cards.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/cards/bin/Debug/netcoreapp2.0/cards.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/cards/obj/Debug/netcoreapp2.0/cards.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/cards/obj/Debug/netcoreapp2.0/cards.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/cards/obj/Debug/netcoreapp2.0/cards.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/cards/obj/Debug/netcoreapp2.0/cards.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/cards/obj/Debug/netcoreapp2.0/cards.pdb

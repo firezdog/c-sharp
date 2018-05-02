@@ -1,10 +1,20 @@
-C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\human\bin\Debug\netcoreapp2.0\human.deps.json
-C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\human\bin\Debug\netcoreapp2.0\human.runtimeconfig.json
-C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\human\bin\Debug\netcoreapp2.0\human.runtimeconfig.dev.json
-C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\human\bin\Debug\netcoreapp2.0\human.dll
-C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\human\bin\Debug\netcoreapp2.0\human.pdb
-C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\human\obj\Debug\netcoreapp2.0\human.csproj.CoreCompileInputs.cache
-C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\human\obj\Debug\netcoreapp2.0\human.AssemblyInfoInputs.cache
-C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\human\obj\Debug\netcoreapp2.0\human.AssemblyInfo.cs
-C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\human\obj\Debug\netcoreapp2.0\human.dll
-C:\Users\Alex Leibowitz\Desktop\Documents\CodingDojo\c#\human\obj\Debug\netcoreapp2.0\human.pdb
+C:/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/human/bin/Debug/netcoreapp2.0/human.deps.json
+C:/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/human/bin/Debug/netcoreapp2.0/human.runtimeconfig.json
+C:/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/human/bin/Debug/netcoreapp2.0/human.runtimeconfig.dev.json
+C:/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/human/bin/Debug/netcoreapp2.0/human.dll
+C:/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/human/bin/Debug/netcoreapp2.0/human.pdb
+C:/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/human/obj/Debug/netcoreapp2.0/human.csproj.CoreCompileInputs.cache
+C:/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/human/obj/Debug/netcoreapp2.0/human.AssemblyInfoInputs.cache
+C:/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/human/obj/Debug/netcoreapp2.0/human.AssemblyInfo.cs
+C:/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/human/obj/Debug/netcoreapp2.0/human.dll
+C:/Users/Alex Leibowitz/Desktop/Documents/CodingDojo/c#/human/obj/Debug/netcoreapp2.0/human.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/human/bin/Debug/netcoreapp2.0/human.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/human/bin/Debug/netcoreapp2.0/human.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/human/bin/Debug/netcoreapp2.0/human.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/human/bin/Debug/netcoreapp2.0/human.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/human/bin/Debug/netcoreapp2.0/human.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/human/obj/Debug/netcoreapp2.0/human.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/human/obj/Debug/netcoreapp2.0/human.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/human/obj/Debug/netcoreapp2.0/human.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/human/obj/Debug/netcoreapp2.0/human.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/human/obj/Debug/netcoreapp2.0/human.pdb
