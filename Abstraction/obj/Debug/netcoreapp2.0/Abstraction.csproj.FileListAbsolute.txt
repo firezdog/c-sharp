@@ -1,0 +1,3 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/Abstraction/obj/Debug/netcoreapp2.0/Abstraction.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/Abstraction/obj/Debug/netcoreapp2.0/Abstraction.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/Abstraction/obj/Debug/netcoreapp2.0/Abstraction.AssemblyInfo.cs
