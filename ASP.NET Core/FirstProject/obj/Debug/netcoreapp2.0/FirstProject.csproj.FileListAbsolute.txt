@@ -1,0 +1,10 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/FirstProject/bin/Debug/netcoreapp2.0/FirstProject.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/FirstProject/bin/Debug/netcoreapp2.0/FirstProject.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/FirstProject/bin/Debug/netcoreapp2.0/FirstProject.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/FirstProject/bin/Debug/netcoreapp2.0/FirstProject.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/FirstProject/bin/Debug/netcoreapp2.0/FirstProject.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/FirstProject/obj/Debug/netcoreapp2.0/FirstProject.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/FirstProject/obj/Debug/netcoreapp2.0/FirstProject.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/FirstProject/obj/Debug/netcoreapp2.0/FirstProject.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/FirstProject/obj/Debug/netcoreapp2.0/FirstProject.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/FirstProject/obj/Debug/netcoreapp2.0/FirstProject.pdb
