@@ -1,0 +1,10 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/crud/bin/Debug/netcoreapp2.0/crud.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/crud/bin/Debug/netcoreapp2.0/crud.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/crud/bin/Debug/netcoreapp2.0/crud.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/crud/bin/Debug/netcoreapp2.0/crud.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/crud/bin/Debug/netcoreapp2.0/crud.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/crud/obj/Debug/netcoreapp2.0/crud.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/crud/obj/Debug/netcoreapp2.0/crud.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/crud/obj/Debug/netcoreapp2.0/crud.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/crud/obj/Debug/netcoreapp2.0/crud.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/crud/obj/Debug/netcoreapp2.0/crud.pdb
