@@ -1,0 +1,10 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/inheritance/bin/Debug/netcoreapp2.0/inheritance.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/inheritance/bin/Debug/netcoreapp2.0/inheritance.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/inheritance/bin/Debug/netcoreapp2.0/inheritance.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/inheritance/bin/Debug/netcoreapp2.0/inheritance.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/inheritance/bin/Debug/netcoreapp2.0/inheritance.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/inheritance/obj/Debug/netcoreapp2.0/inheritance.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/inheritance/obj/Debug/netcoreapp2.0/inheritance.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/inheritance/obj/Debug/netcoreapp2.0/inheritance.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/inheritance/obj/Debug/netcoreapp2.0/inheritance.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/inheritance/obj/Debug/netcoreapp2.0/inheritance.pdb

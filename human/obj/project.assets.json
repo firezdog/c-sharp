@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex Leibowitz\\Desktop\\Documents\\CodingDojo\\c#\\human\\human.csproj",
+      "projectUniqueName": "c:\\Users\\Alex Leibowitz\\Desktop\\Documents\\CodingDojo\\c#\\human\\human.csproj",
       "projectName": "human",
-      "projectPath": "C:\\Users\\Alex Leibowitz\\Desktop\\Documents\\CodingDojo\\c#\\human\\human.csproj",
+      "projectPath": "c:\\Users\\Alex Leibowitz\\Desktop\\Documents\\CodingDojo\\c#\\human\\human.csproj",
       "packagesPath": "C:\\Users\\Alex Leibowitz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex Leibowitz\\Desktop\\Documents\\CodingDojo\\c#\\human\\obj\\",
+      "outputPath": "c:\\Users\\Alex Leibowitz\\Desktop\\Documents\\CodingDojo\\c#\\human\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,0 +1,10 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/linq/bin/Debug/netcoreapp2.0/linq.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/linq/bin/Debug/netcoreapp2.0/linq.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/linq/bin/Debug/netcoreapp2.0/linq.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/linq/bin/Debug/netcoreapp2.0/linq.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/linq/bin/Debug/netcoreapp2.0/linq.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/linq/obj/Debug/netcoreapp2.0/linq.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/linq/obj/Debug/netcoreapp2.0/linq.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/linq/obj/Debug/netcoreapp2.0/linq.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/linq/obj/Debug/netcoreapp2.0/linq.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/linq/obj/Debug/netcoreapp2.0/linq.pdb
