@@ -1,0 +1,10 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/advancedOOP/bin/Debug/netcoreapp2.0/advancedOOP.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/advancedOOP/bin/Debug/netcoreapp2.0/advancedOOP.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/advancedOOP/bin/Debug/netcoreapp2.0/advancedOOP.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/advancedOOP/bin/Debug/netcoreapp2.0/advancedOOP.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/advancedOOP/bin/Debug/netcoreapp2.0/advancedOOP.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/advancedOOP/obj/Debug/netcoreapp2.0/advancedOOP.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/advancedOOP/obj/Debug/netcoreapp2.0/advancedOOP.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/advancedOOP/obj/Debug/netcoreapp2.0/advancedOOP.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/advancedOOP/obj/Debug/netcoreapp2.0/advancedOOP.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/advancedOOP/obj/Debug/netcoreapp2.0/advancedOOP.pdb
