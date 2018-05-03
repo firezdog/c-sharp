@@ -1,0 +1,10 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.pdb
