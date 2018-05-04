@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Index</title>
+    <link rel="stylesheet" href="~/libraries/bootstrap/css/bootstrap.min.css"/>
+    <script src="~/libraries/jquery/js/jquery.min.js"></script>
+    <script src="~/libraries/popper/js/popper.min.js"></script>
+    <script src="~/libraries/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/css/main.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsible">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <table class="table">
+                <tr>
+                    <td><h2>Your Name</h2></td>
+                    <td>@ViewBag.name</td>
+                </tr>
+                <tr>
+                    <td><h2>Your Location</h2></td>
+                    <td>@ViewBag.location</td>
+                </tr>
+                <tr>
+                    <td><h2>Your Favorite Language</h2></td>
+                    <td>@ViewBag.language</td>
+                </tr>
+                <tr>
+                    <td><h2>Your Comment</h2></td>
+                    <td>@ViewBag.comment</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

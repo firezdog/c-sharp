@@ -31,21 +31,34 @@
     <div class="container">
         <div class="card">
             <div class="card-header">
-                <h1 class="text-center">Contact Me!</h1>
+                <h1 class="text-center">What Do You Think?</h1>
             </div>
             <div class="card-body">
-                <form>
+                <form method="post" action="/contact">
                     <div class="form-group">
                         <label>Name</label>
-                        <input class="form-control" type="text" placeholder="John Doe"/>
+                        <input class="form-control" name="name" type="text" placeholder="John Doe"/>
                     </div>
                     <div class="form-group">
-                        <label>Email</label>
-                        <input class="form-control" type="email" placeholder="John Doe"/>
+                        <label>Location</label>
+                        <select class="custom-select" name="location"/>
+                            <option value="Chicago">Chicago</option>
+                            <option value="New York">New York</option>
+                            <option value="Seattle">Seattle</option>
+                            <option value="San Francisco">San Francisco</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Language</label>
+                        <select class="custom-select" name="language"/>
+                            <option value="C#">C#</option>
+                            <option value="Python">Python</option>
+                            <option value="JavaScript">JavaScript</option>
+                        </select>
                     </div>
                     <div class="form-group">
                         <label>Comment</label>
-                        <textarea class="form-control" rows="3"></textarea>
+                        <textarea class="form-control" name="comment" rows="3" placeholder="Enter your comment here.">@ViewBag.Example</textarea>
                     </div>
                     <button type="submit" class="btn btn-primary mb-2">Submit</button>
                 </form>
