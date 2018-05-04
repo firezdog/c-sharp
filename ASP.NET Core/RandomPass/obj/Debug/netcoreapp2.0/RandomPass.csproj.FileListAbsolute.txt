@@ -1,0 +1,10 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/RandomPass/bin/Debug/netcoreapp2.0/RandomPass.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/RandomPass/bin/Debug/netcoreapp2.0/RandomPass.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/RandomPass/bin/Debug/netcoreapp2.0/RandomPass.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/RandomPass/bin/Debug/netcoreapp2.0/RandomPass.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/RandomPass/bin/Debug/netcoreapp2.0/RandomPass.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/RandomPass/obj/Debug/netcoreapp2.0/RandomPass.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/RandomPass/obj/Debug/netcoreapp2.0/RandomPass.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/RandomPass/obj/Debug/netcoreapp2.0/RandomPass.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/RandomPass/obj/Debug/netcoreapp2.0/RandomPass.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/RandomPass/obj/Debug/netcoreapp2.0/RandomPass.pdb
