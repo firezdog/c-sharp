@@ -1,0 +1,10 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/DateDisplay/bin/Debug/netcoreapp2.0/DateDisplay.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/DateDisplay/bin/Debug/netcoreapp2.0/DateDisplay.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/DateDisplay/bin/Debug/netcoreapp2.0/DateDisplay.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/DateDisplay/bin/Debug/netcoreapp2.0/DateDisplay.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/DateDisplay/bin/Debug/netcoreapp2.0/DateDisplay.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/DateDisplay/obj/Debug/netcoreapp2.0/DateDisplay.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/DateDisplay/obj/Debug/netcoreapp2.0/DateDisplay.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/DateDisplay/obj/Debug/netcoreapp2.0/DateDisplay.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/DateDisplay/obj/Debug/netcoreapp2.0/DateDisplay.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/DateDisplay/obj/Debug/netcoreapp2.0/DateDisplay.pdb

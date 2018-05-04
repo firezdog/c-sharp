@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>First View</title>
+</head>
+<body>
+    <h1>This is the first view.</h1>
+    @{
+        var StringList = new List<string>{
+            "one",
+            "two",
+            "three",
+            "four",
+            "you get the idea"
+        };
+        foreach(var word in StringList)
+        {
+            <div>
+                <p>@word</p>
+                @if(word.Length < 4){
+                    <p>"@word" is a short word.</p>
+                }
+            </div>
+        }
+    }
+</body>
+</html>

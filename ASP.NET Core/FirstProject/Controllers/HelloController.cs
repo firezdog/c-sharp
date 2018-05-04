@@ -5,6 +5,11 @@ namespace FirstProject.Controllers {
     public class HelloController: Controller
     {
         [HttpGet]
+        [Route("firstView")]
+        public IActionResult FirstView() {
+            return View();
+        }
+        [HttpGet]
         [Route("")]
         public JsonResult Example() {
             var anonObject = new {
