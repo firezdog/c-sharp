@@ -1,0 +1,10 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.pdb
