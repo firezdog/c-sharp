@@ -1,0 +1,30 @@
+body {
+    margin-top: 4em;
+}
+
+.card {
+    padding: 1em 0.875em;
+    padding-top: 0;
+    background: #80bfc3;
+    outline: 1px solid black;
+}
+
+.card-header {
+    background: #f7f7f7;
+    outline: 1px solid black;
+}
+
+p {
+    margin: 1em;
+    padding: 1em;
+    background: #f7f7f7;
+    outline: 1px solid black;
+}
+
+button {
+    margin: auto 0.25em;
+}
+
+#loss h1 {
+    margin: 1em;
+}

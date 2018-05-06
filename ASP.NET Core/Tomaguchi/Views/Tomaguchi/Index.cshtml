@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tomaguchi App</title>
+    <link rel="stylesheet" href="~/libraries/bootstrap/css/bootstrap.min.css"/>
+    <script src="~/libraries/jquery/js/jquery.min.js"></script>
+    <script src="~/libraries/popper/js/popper.min.js"></script>
+    <script src="~/libraries/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/Index.css"/>
+    <script src="~/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <div class="card-header row text-center">
+                    <div class="col-3"><strong>Fullness:</strong> <span id="fullness">@ViewBag.pet.fullness</span></div>
+                    <div class="col-3"><strong>Happiness:</strong> <span id="happiness">@ViewBag.pet.happiness</span></div>
+                    <div class="col-3"><strong>Meals:</strong> <span id="meals">@ViewBag.pet.meals</span></div>
+                    <div class="col-3"><strong>Energy:</strong> <span id="energy">@ViewBag.pet.energy</span></div>
+                </div>
+                <div class="card-body text-center">
+                    <img class="img-thumbnail" src="~/images/tomaguchi.jpg"/>
+                    <div id="playing">
+                        <p id="action">@ViewBag.pet.action</p>
+                        <button class="btn btn-primary col-2">Feed</button>
+                        <button class="btn btn-primary col-2">Play</button>
+                        <button class="btn btn-primary col-2">Work</button>
+                        <button class="btn btn-primary col-2">Sleep</button>
+                    </div>
+                    <div id="loss" hidden>
+                        <h1></h1>
+                        <button class="btn btn-danger col-12">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

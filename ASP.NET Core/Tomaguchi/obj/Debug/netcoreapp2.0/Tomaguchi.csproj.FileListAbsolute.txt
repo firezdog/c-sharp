@@ -1,0 +1,10 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Tomaguchi/bin/Debug/netcoreapp2.0/Tomaguchi.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Tomaguchi/bin/Debug/netcoreapp2.0/Tomaguchi.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Tomaguchi/bin/Debug/netcoreapp2.0/Tomaguchi.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Tomaguchi/bin/Debug/netcoreapp2.0/Tomaguchi.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Tomaguchi/bin/Debug/netcoreapp2.0/Tomaguchi.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Tomaguchi/obj/Debug/netcoreapp2.0/Tomaguchi.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Tomaguchi/obj/Debug/netcoreapp2.0/Tomaguchi.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Tomaguchi/obj/Debug/netcoreapp2.0/Tomaguchi.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Tomaguchi/obj/Debug/netcoreapp2.0/Tomaguchi.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ASP.NET Core/Tomaguchi/obj/Debug/netcoreapp2.0/Tomaguchi.pdb
