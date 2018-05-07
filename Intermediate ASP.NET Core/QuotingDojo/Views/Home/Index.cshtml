@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>Quotes</h1>
+    <hr>
+    @foreach (var comment in ViewBag.result) {
+        <div>
+            <hr>
+            <p class="text-right">@comment["created_at"]</p>
+            <p>@comment["text"]</p>
+            <p class="text-right">--@comment["creator"]</p>
+        </div>
+    }
+</div>

@@ -1,0 +1,10 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/QuotingDojo/bin/Debug/netcoreapp2.0/QuotingDojo.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/QuotingDojo/bin/Debug/netcoreapp2.0/QuotingDojo.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/QuotingDojo/bin/Debug/netcoreapp2.0/QuotingDojo.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/QuotingDojo/bin/Debug/netcoreapp2.0/QuotingDojo.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/QuotingDojo/bin/Debug/netcoreapp2.0/QuotingDojo.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/QuotingDojo/obj/Debug/netcoreapp2.0/QuotingDojo.pdb
