@@ -1,0 +1,27 @@
+﻿<div class="container">
+    <h4>Notes</h4>
+    <hr>
+    <form id="newNote">
+        <div class="form-group">
+            <label for="form_title">Title:</label>
+            <input type="text" id="form_title" name="title" class="form-control"/>
+        </div>
+        <button id="submitNote" class="btn btn-primary mb-2">Add Note</button>
+    </form>
+    <div id="newNoteErrors" class="card">
+        <ul id="newNoteErrorList" class="list-group"></ul>
+    </div>
+    <div id="allNotes">
+        @foreach (var note in ViewBag.notes) {
+            <div class="note card">
+            <div class="card-header">
+                <h3 class="float-left">@note["title"]</h3>
+                <button data=@note["id"] class="delete btn btn-danger float-right">Delete</button>
+            </div>
+            <div class="card-body">
+                <p data=@note["id"]>@if(note["description"] != null){@note["description"]}</p>
+            </div>
+        </div>
+        }
+    </div>
+</div>

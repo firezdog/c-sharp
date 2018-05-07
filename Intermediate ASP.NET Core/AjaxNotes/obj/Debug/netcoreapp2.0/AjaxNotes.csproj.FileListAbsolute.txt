@@ -1,0 +1,20 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/AjaxNotes/bin/Debug/netcoreapp2.0/AjaxNotes.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/AjaxNotes/bin/Debug/netcoreapp2.0/AjaxNotes.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/AjaxNotes/bin/Debug/netcoreapp2.0/AjaxNotes.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/AjaxNotes/bin/Debug/netcoreapp2.0/AjaxNotes.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/AjaxNotes/bin/Debug/netcoreapp2.0/AjaxNotes.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/AjaxNotes/obj/Debug/netcoreapp2.0/AjaxNotes.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/AjaxNotes/bin/Debug/netcoreapp2.0/AjaxNotes.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/AjaxNotes/bin/Debug/netcoreapp2.0/AjaxNotes.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/AjaxNotes/bin/Debug/netcoreapp2.0/AjaxNotes.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/AjaxNotes/bin/Debug/netcoreapp2.0/AjaxNotes.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/AjaxNotes/bin/Debug/netcoreapp2.0/AjaxNotes.pdb
