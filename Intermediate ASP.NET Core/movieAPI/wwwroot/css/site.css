@@ -7,3 +7,12 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+button {
+    margin-left: .25em;
+}
+
+#error {
+    color:red;
+    padding: 1em;
+}
