@@ -1,0 +1,10 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/movieAPI/bin/Debug/netcoreapp2.0/movieAPI.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/movieAPI/bin/Debug/netcoreapp2.0/movieAPI.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/movieAPI/bin/Debug/netcoreapp2.0/movieAPI.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/movieAPI/bin/Debug/netcoreapp2.0/movieAPI.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/movieAPI/bin/Debug/netcoreapp2.0/movieAPI.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/movieAPI/obj/Debug/netcoreapp2.0/movieAPI.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/movieAPI/obj/Debug/netcoreapp2.0/movieAPI.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/movieAPI/obj/Debug/netcoreapp2.0/movieAPI.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/movieAPI/obj/Debug/netcoreapp2.0/movieAPI.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/movieAPI/obj/Debug/netcoreapp2.0/movieAPI.pdb
