@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container">
+    <form method="POST" action="login">
+        <div class="form-group">
+            <label for="first">First Name</label>
+            <input type="text" name="FirstName" class="form-control" id="first" placeholder="Jane">
+        </div>
+        <div class="form-group">
+            <label for="last">Last Name</label>
+            <input type="text" name="LastName" class="form-control" id="last" placeholder="Doe">
+        </div>
+        <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" name="Age" class="form-control" id="age" placeholder="31">
+        </div>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="text" name="Email" class="form-control" id="email" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="Password" class="form-control" id="password" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="confirmation">Confirm Password</label>
+            <input type="password" name="Confirmation" class="form-control" id="confirmation" placeholder="Confirm Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<div id="errors" class="card" hidden="true">
+    <ul class="list-group"></ul>
+</div>
