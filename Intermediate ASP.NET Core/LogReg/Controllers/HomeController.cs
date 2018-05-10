@@ -15,6 +15,10 @@ namespace LogReg.Controllers
         public HomeController(DbConnector connect){
             _dbConnector = connect;
         }
+        public IActionResult Logout() {
+            HttpContext.Session.Remove("user");
+            return RedirectToAction("Index","Home");
+        }
         public IActionResult Landing() {
             return View();
         }
@@ -26,7 +30,7 @@ namespace LogReg.Controllers
                 if (result.Count == 0) {
                     _dbConnector.Execute($"INSERT INTO users (first, last, email, password) VALUES ('{user.FirstName}','{user.LastName}','{user.Email}','{user.Password}')");
                     HttpContext.Session.SetString("user",user.Email);
-                    return RedirectToAction("Landing");
+                    return RedirectToAction("Landing", "Wall");
                 } else {
                     ViewBag.duplicate = true;
                 }
@@ -37,7 +41,7 @@ namespace LogReg.Controllers
             var result = _dbConnector.Query($"SELECT * FROM users WHERE email='{user.Email}' AND password='{user.Password}'");
             if (result.Count > 0) {
                 HttpContext.Session.SetString("user",user.Email);
-                return RedirectToAction("Landing");
+                return RedirectToAction("Landing", "Wall");
             }
             TempData["loginFailure"] = true;
             return RedirectToAction("Index");

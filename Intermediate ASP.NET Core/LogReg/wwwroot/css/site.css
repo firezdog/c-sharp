@@ -13,3 +13,15 @@
 .error {
     color: red;
 }
+
+#wall_main {
+    margin-top: 2em;
+}
+
+.delete {
+    margin-left: 1em;
+}
+
+#wall_main {
+    margin-bottom: 2em;
+}

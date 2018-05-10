@@ -1,0 +1,8 @@
+@model CommentViewModel
+<form asp-controller="Wall" asp-action="Comment" asp-route-id=@ViewData["id"] method="Post" method="Post">
+    <div class="form-group">
+        <label>Comment on this</label>
+        <textarea asp-for="text" class="form-control" rows="5"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

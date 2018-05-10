@@ -1,0 +1,11 @@
+@model MessageViewModel
+<div id="wall_main" class="container">
+    <form asp-controller="Wall" asp-action="Message" method="Post">
+        <div class="form-group">
+            <label>Post a message</label>
+            <textarea asp-for="text" class="form-control" rows="5"></textarea>
+            <span class="error" asp-validation-for="text"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
