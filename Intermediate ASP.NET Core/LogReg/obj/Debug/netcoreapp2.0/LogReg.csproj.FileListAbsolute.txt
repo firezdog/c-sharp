@@ -1,0 +1,10 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/LogReg/bin/Debug/netcoreapp2.0/LogReg.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/LogReg/bin/Debug/netcoreapp2.0/LogReg.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/LogReg/bin/Debug/netcoreapp2.0/LogReg.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/LogReg/bin/Debug/netcoreapp2.0/LogReg.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/LogReg/bin/Debug/netcoreapp2.0/LogReg.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/LogReg/obj/Debug/netcoreapp2.0/LogReg.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/LogReg/obj/Debug/netcoreapp2.0/LogReg.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/LogReg/obj/Debug/netcoreapp2.0/LogReg.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/LogReg/obj/Debug/netcoreapp2.0/LogReg.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/Intermediate ASP.NET Core/LogReg/obj/Debug/netcoreapp2.0/LogReg.pdb

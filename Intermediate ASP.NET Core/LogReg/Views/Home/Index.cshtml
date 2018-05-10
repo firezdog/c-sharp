@@ -1,0 +1,57 @@
+@model LogReg.Models.User
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h1>Register</h1>
+            <form method="post" asp-controller="Home" asp-action="Register">
+                <div class="form-group">
+                    <label asp-for="FirstName">First Name</label>
+                    <input asp-for="FirstName" class="form-control"/>
+                    <span asp-validation-for="FirstName" class="error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LastName">Last Name</label>
+                    <input asp-for="LastName" class="form-control"/>
+                    <span asp-validation-for="LastName" class="error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" for="email">Email</label>
+                    <input class="form-control" asp-for="Email" id="email"/>
+                    <span asp-validation-for="Email" class="error"></span>
+                    
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" for="password">Password</label>
+                    <input class="form-control" asp-for="Password" type="password" id="password">
+                    <span asp-validation-for="Password" class="error"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Confirmation" for="confirmation">Confirm</label>
+                    <input class="form-control" asp-for="Confirmation" type="password" id="confirmation">
+                    <span asp-validation-for="Confirmation" class="error"></span>
+                </div>
+                @if(ViewBag.duplicate==true){
+                    <span class="error">User already exists.</span>
+                }
+                <button type="submit" class="button btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="col-6">
+            <h1>Login</h1>
+            <form method="post" asp-controller="Home" asp-action="Login">
+                <div class="form-group">
+                    <label for="login_email">Email</label>
+                    <input class="form-control" type="text" id="login_email" name="Email"/>
+                </div>
+                <div class="form-group">
+                    <label for="login_password">Password</label>
+                    <input class="form-control" type="password" id="login_password" name="Password">
+                    @if((bool?)TempData["loginFailure"]==true){
+                        <span class="error">The username or password is incorrect.</span>
+                    }
+                </div>
+                <button type="submit" class="button btn btn-primary">Submit</button>
+            </form>
+        </div>
+</div>
