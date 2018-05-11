@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container">
+    <div class="row">
+        <h1 class="col-11 text-center">Lost In The Woods</h1>
+        <a class="col-1" asp-controller="LostInWoods" asp-action="NewTrail"><button class="btn btn-primary float-right">New Trail</button></a>
+    </div>
+    <table class="table text-center">
+        <thead>
+            <th>Trail Name</th>
+            <th>Trail Length</th>
+            <th>Elevation Change</th>
+        </thead>
+        @foreach(var trail in ViewBag.trails){
+            <tr>
+                <td><a asp-route-id=@trail.id asp-controller="LostInWoods" asp-action="ShowTrail">@trail.trail_name</a></td>
+                <td><span>@trail.trail_length</span> miles</td>
+                <td><span>@trail.elevation_change</span> feet</td>
+            </tr>
+        }
+    </table>
+</div>

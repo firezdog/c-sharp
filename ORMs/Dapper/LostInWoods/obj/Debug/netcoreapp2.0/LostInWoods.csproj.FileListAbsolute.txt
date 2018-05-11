@@ -1,0 +1,11 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/LostInWoods/bin/Debug/netcoreapp2.0/LostInWoods.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/LostInWoods/bin/Debug/netcoreapp2.0/LostInWoods.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/LostInWoods/bin/Debug/netcoreapp2.0/LostInWoods.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/LostInWoods/bin/Debug/netcoreapp2.0/LostInWoods.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/LostInWoods/bin/Debug/netcoreapp2.0/LostInWoods.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/LostInWoods/obj/Debug/netcoreapp2.0/LostInWoods.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/LostInWoods/obj/Debug/netcoreapp2.0/LostInWoods.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/LostInWoods/obj/Debug/netcoreapp2.0/LostInWoods.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/LostInWoods/obj/Debug/netcoreapp2.0/LostInWoods.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/LostInWoods/obj/Debug/netcoreapp2.0/LostInWoods.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/LostInWoods/obj/Debug/netcoreapp2.0/LostInWoods.csprojResolveAssemblyReference.cache

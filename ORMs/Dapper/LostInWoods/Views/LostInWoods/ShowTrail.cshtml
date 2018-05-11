@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = @ViewBag.trail.trail_name;
+}
+<script src="~/js/map.js"></script>
+<div class="container">
+    <div class="row">
+        <h1 class="col-11">@ViewBag.trail.trail_name</h1>
+        <div class="col-1"><a asp-controller="LostInWoods" asp-action="Index"><button class="btn btn-primary">Home</button></a></div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <h4>Description</h4>
+            <p>@ViewBag.trail.trail_description</p>
+            <h4>Trail Length</h4>
+            <p><span>@ViewBag.trail.trail_length</span> miles</p>
+            <h4>Elevation Change</h4>
+            <p><span>@ViewBag.trail.elevation_change</span> feet</p>
+        </div>
+        <div class="col-6">
+            <div id="map" lat=@ViewBag.trail.latitude long=@ViewBag.trail.longitude></div>
+            <p>Latitude -- <span>@ViewBag.trail.latitude</span> &#176N</p>
+            <p>Longitude -- <span>@ViewBag.trail.longitude</span> &#176W</p>
+        </div>
+    </div>
+</div>
