@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using DojoLeague.Models;
 using DojoLeague.Factory;
+using System;
 
 namespace DojoLeague.Controllers
 {
@@ -37,12 +38,23 @@ namespace DojoLeague.Controllers
             ViewBag.dojos = dojoFactory.GetAll();
             return View("Dojos");
         }
+        [HttpGet]
+        [Route("ninjas/{id}")]
+        public IActionResult ShowNinja(int id){
+            ViewBag.ninja = ninjaFactory.GetOne(id);
+            return View();
+        }
         [HttpPost]
         [Route("ninjas/new")]
         public IActionResult NewNinja(Ninja ninja){
+            if(ModelState.IsValid){
+                ninjaFactory.Add(ninja);
+                RedirectToAction("Ninjas");
+            }
             ViewBag.ninjas = ninjaFactory.GetAll();
             ViewBag.dojos = dojoFactory.GetAll();
             return View("Ninjas");
+            // return View("Ninjas");
         }
         [HttpGet]
         [Route("")]

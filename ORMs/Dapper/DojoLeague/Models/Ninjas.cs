@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 namespace DojoLeague.Models
 {
     public class Ninja:BaseEntity{
-        public int id {get;set;}
+        public int? id {get;set;}
         [Display(Name="Ninja Name")]
         [Required(ErrorMessage="Ninja name is required.")]
         public string name {get;set;}

@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Ninja Page";
+}
+<div class="card">
+    <div class="card-header">
+        <h1>@ViewBag.ninja.name</h1>
+    </div>
+    <div class="card-body">
+        <p>Ninja Level: @ViewBag.ninja.level</p>
+        @if(ViewBag.ninja.description != ""){
+        <p>Description: @ViewBag.ninja.description</p>
+        }
+        @if(ViewBag.ninja.dojo != null){
+        <p>Current Dojo: <a asp-action="ViewDojo" asp-route-id=@ViewBag.ninja.dojo.id>@ViewBag.ninja.dojo.name</a></p>
+        } else {
+        <p>Current Dojo: Rogue (None)</p>
+        }
+    </div>
+</div>

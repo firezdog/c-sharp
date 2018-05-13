@@ -19,6 +19,18 @@ namespace DojoLeague.Factory
                 return new MySqlConnection(connectionString);
             }
         }
+        public void Add(Ninja item){
+            using (IDbConnection dbConnection = Connection) {
+                string query;
+                if(item.dojos_id == null) {
+                    query = "INSERT INTO ninjas (name, level, description) VALUES (@name, @level, @description)";
+                } else {
+                    query = "INSERT INTO ninjas (name, level, description, dojos_id) VALUES (@name, @level, @description, @dojos_id)";
+                }
+                dbConnection.Open();
+                dbConnection.Execute(query, item);
+            }
+        }
         public void BanishRecruit(int ninja_id, int dojo_id, bool recruit){
             using (IDbConnection dbConnection = Connection) {
                 dbConnection.Open();
@@ -29,13 +41,20 @@ namespace DojoLeague.Factory
                 }
             }
         }
-        //Specific DB queries below.
         public IEnumerable<Ninja> GetAll() {
             using (IDbConnection dbConnection = Connection) {
                 string query = "SELECT * FROM ninjas LEFT JOIN dojos ON ninjas.dojos_id = dojos.id";
                 dbConnection.Open();
                 var ninjas = dbConnection.Query<Ninja, Dojo, Ninja>(query, (ninja, dojo) => {ninja.dojo = dojo; return ninja;});
                 return ninjas;
+            }
+        }
+        public Ninja GetOne(int id){
+            using (IDbConnection dbConnection = Connection) {
+                var query = $"SELECT * FROM ninjas LEFT JOIN dojos ON ninjas.dojos_id=dojos.id WHERE ninjas.id = {id}";
+                dbConnection.Open();    
+                var myNinja = dbConnection.Query<Ninja, Dojo, Ninja>(query, (ninja, dojo) => { ninja.dojo = dojo; return ninja; }).FirstOrDefault();
+                return myNinja;
             }
         }
     }

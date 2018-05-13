@@ -18,7 +18,7 @@
                     <tbody class="card-body">
                         @foreach(var ninja in ViewBag.ninjas){
                             <tr>
-                                <td><a href="#">@ninja.name</a></td>
+                                <td><a asp-action="ShowNinja" asp-route-id=@ninja.id>@ninja.name</a></td>
                                 @if(ninja.dojo == null){
                                 <td>Rogue</td>
                                 } else {
@@ -46,7 +46,7 @@
                 <div class="form-group">
                     <label asp-for="dojos_id"></label>
                     <select class="form-control" asp-for="dojos_id">
-                        <option>Rogue</option>
+                        <option value="">Rogue</option>
                         @foreach(var dojo in ViewBag.dojos){
                         <option value=@dojo.id>@dojo.name</option>
                         }
