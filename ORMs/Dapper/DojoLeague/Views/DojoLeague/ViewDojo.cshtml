@@ -1,0 +1,61 @@
+@{
+    ViewData["Title"] = @ViewBag.dojo.name;
+}
+<div class="container">
+    <h1 class="text-center">@ViewBag.dojo.name</h1>
+    <p>Dojo Location -- @ViewBag.dojo.location</p>
+    @if(ViewBag.dojo.description != null){
+    <p>Information: @ViewBag.dojo.description</p>
+    }
+    <hr>
+    <div class="row">
+        <div class="col-6 text-center">
+            <h3>Current Members</h3>
+            <div class="card">
+                <table class="table">
+                    <thead class="card-header">
+                        <th>Ninja</th>
+                        <th>Action</th>
+                    </thead>
+                    <tbody class="card-body">
+                        @foreach(var ninja in ViewBag.dojo.ninjas){
+                        <tr>
+                            <td>@ninja.name</td>
+                            <td>
+                                <form method="POST" asp-action="UpdateNinja" asp-route-ninja_id=@ninja.id asp-route-dojo_id=@ViewBag.dojo.id asp-route-recruit="false">
+                                    <button class="btn btn-danger">Banish</button>
+                                </form>
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-6 text-center">
+            <h3>Rogue Ninjas</h3>
+            <div class="card">
+                <table class="table">
+                    <thead class="card-header">
+                        <th>Ninja</th>
+                        <th>Action</th>
+                    </thead>
+                    <tbody class="card-body">
+                        @foreach(var ninja in ViewBag.ninjas){
+                        if (ninja.dojos_id == null) {
+                        <tr>
+                            <td>@ninja.name</td>
+                            <td>
+                                <form method="POST" asp-action="UpdateNinja" asp-route-ninja_id=@ninja.id asp-route-dojo_id=@ViewBag.dojo.id asp-route-recruit="true">
+                                    <button class="btn btn-info">Recruit</button>
+                                </form>
+                            </td>
+                        </tr>    
+                        }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

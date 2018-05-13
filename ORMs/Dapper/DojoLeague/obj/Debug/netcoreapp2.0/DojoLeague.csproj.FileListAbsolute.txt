@@ -1,0 +1,11 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/DojoLeague/bin/Debug/netcoreapp2.0/DojoLeague.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/DojoLeague/bin/Debug/netcoreapp2.0/DojoLeague.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/DojoLeague/bin/Debug/netcoreapp2.0/DojoLeague.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/DojoLeague/bin/Debug/netcoreapp2.0/DojoLeague.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/DojoLeague/bin/Debug/netcoreapp2.0/DojoLeague.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/DojoLeague/obj/Debug/netcoreapp2.0/DojoLeague.csprojResolveAssemblyReference.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/DojoLeague/obj/Debug/netcoreapp2.0/DojoLeague.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/DojoLeague/obj/Debug/netcoreapp2.0/DojoLeague.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/DojoLeague/obj/Debug/netcoreapp2.0/DojoLeague.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/DojoLeague/obj/Debug/netcoreapp2.0/DojoLeague.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Dapper/DojoLeague/obj/Debug/netcoreapp2.0/DojoLeague.pdb

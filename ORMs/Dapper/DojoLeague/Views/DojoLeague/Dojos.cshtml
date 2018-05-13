@@ -1,0 +1,49 @@
+<script src="~/js/dojos.js"></script>
+
+@model DojoLeague.Models.Dojo
+@{
+    ViewData["Title"] = "Dojos";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h1 class="text-center">Current Dojos</h1>
+            <div class="card">
+                <table class="table text-center">
+                    <thead class="card-header">
+                        <th>Dojo Name</th>
+                        <th>Dojo Location</th>
+                    </thead>
+                    <tbody class="card-body">
+                        @foreach(var dojo in ViewBag.dojos){
+                        <tr>
+                            <td><a asp-action="ViewDojo" asp-route-id=@dojo.id>@dojo.name</a></td>
+                            <td>@dojo.location</td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-6">
+            <h1 class="text-center">Create New Dojo</h1>
+            <form asp-action="NewDojo" method="POST">
+                <div class="form-group">
+                    <label asp-for="name"></label>
+                    <input class="form-control" asp-for="name"/>
+                    <small><span asp-validation-for="name"></span></small>
+                </div>
+                <div class="form-group">
+                    <label asp-for="location"></label>
+                    <input class="form-control" asp-for="location"/>
+                    <small><span asp-validation-for="location"></span></small>
+                </div>
+                <div class="form-group">
+                    <label asp-for="description"></label>
+                    <textarea class="form-control" asp-for="description" rows="5"></textarea>
+                </div>
+                <button class="btn btn-primary">Create</button>
+            </form>
+        </div>
+    </div>
+</div>
