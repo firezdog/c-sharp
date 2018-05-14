@@ -1,0 +1,9 @@
+@{ViewData["Title"]="Reviews";}
+<div class="container">
+    @foreach(var review in ViewBag.reviews){
+    <h2>@review.restaurant<span class="float-right">@review.rating star(s)</span></h2>
+    <p>Reviewer - @review.reviewer - @review.date_visited.ToString("MMM d, yyyy")</p>
+    <p class="review">@review.review</p>
+    <hr>
+    }
+</div>

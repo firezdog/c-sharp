@@ -1,0 +1,11 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.csprojResolveAssemblyReference.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.pdb
