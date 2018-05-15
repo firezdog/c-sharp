@@ -1,0 +1,36 @@
+@model Bank.Models.TransactionViewModel
+@{
+    ViewData["Title"] = "Bank Main";
+    var user = ViewBag.user;
+}
+
+<div class="container">
+    <h1>Welcome, @user.FirstName @user.LastName.<span class="float-right">Balance: @String.Format("{0:C}",user.balance)</span></h1>
+    <label asp-for="amount"></label>
+    <form asp-action="Transaction" method="POST" class="row">
+        <div class="form-group col-2">
+            <input asp-for="amount" type="number" step="0.01" class="form-control"/>
+        </div>
+        <div class="col-2">
+            <button class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+    <small class="text-danger"><span asp-validation-for="amount"></span></small>
+    @if(ViewBag.overdrawn != null){
+    <small class="text-danger">You cannot overdraw.</small>
+    }
+    <table class="table">
+        <thead>
+            <th>Amount</th>
+            <th>Date</th>
+        </thead>
+        <tbody>        
+        @foreach(var transaction in ViewBag.user.Transactions){
+            <tr>
+                <td>@String.Format("{0:C}",transaction.amount)</td>
+                <td>@transaction.created_at.ToString("MMMM d, yyyy")</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

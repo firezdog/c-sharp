@@ -1,0 +1,11 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/Bank/bin/Debug/netcoreapp2.0/Bank.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/Bank/bin/Debug/netcoreapp2.0/Bank.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/Bank/bin/Debug/netcoreapp2.0/Bank.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/Bank/bin/Debug/netcoreapp2.0/Bank.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/Bank/bin/Debug/netcoreapp2.0/Bank.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/Bank/obj/Debug/netcoreapp2.0/Bank.csprojResolveAssemblyReference.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/Bank/obj/Debug/netcoreapp2.0/Bank.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/Bank/obj/Debug/netcoreapp2.0/Bank.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/Bank/obj/Debug/netcoreapp2.0/Bank.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/Bank/obj/Debug/netcoreapp2.0/Bank.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/ORMs/Entity/Bank/obj/Debug/netcoreapp2.0/Bank.pdb

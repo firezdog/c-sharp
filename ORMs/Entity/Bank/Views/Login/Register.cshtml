@@ -1,0 +1,38 @@
+@model Bank.Models.UserViewModel
+
+@{ViewData["Title"] = "Register";}
+<div class="container">
+    <h1>Bank Registration Page</h1>
+    <p>Already have an account? <a asp-action="Login">Login</a>...</p>
+    <form method="POST" asp-action="CreateUser">
+        @if(@ViewBag.duplicate){
+        <small class="text-danger"><span>User already registered.</span></small>
+        }
+        <div class="form-group">
+            <label asp-for="FirstName"></label>
+            <input class="form-control" asp-for="FirstName"/>
+            <small class="text-danger"><span asp-validation-for="FirstName"></span></small>
+        </div>
+        <div class="form-group">
+            <label asp-for="LastName"></label>
+            <input class="form-control" asp-for="LastName"/>
+            <small class="text-danger"><span asp-validation-for="LastName"></span></small>
+        </div>
+        <div class="form-group">
+            <label asp-for="EmailAddress"></label>
+            <input class="form-control" asp-for="EmailAddress"/>
+            <small class="text-danger"><span asp-validation-for="EmailAddress"></span></small>
+        </div>
+        <div class="form-group">
+            <label asp-for="Password"></label>
+            <input class="form-control" asp-for="Password"/>
+            <small class="text-danger"><span asp-validation-for="Password"></span></small>
+        </div>
+        <div class="form-group">
+            <label asp-for="Confirmation"></label>
+            <input class="form-control" asp-for="Confirmation"/>
+            <small class="text-danger"><span asp-validation-for="Confirmation"></span></small>
+        </div>
+        <button class="btn btn-primary">Submit</button>
+    </form>
+</div>
