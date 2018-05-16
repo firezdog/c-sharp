@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Record";
+}
+<div class="container">
+    <div class="row">
+        <h3 class="col-8">@ViewBag.wedding.WedderOne and @ViewBag.wedding.WedderTwo's Wedding</h1>
+        <h5 class="col-2">
+            <a asp-controller="Wedding" asp-action="WeddingPage">All Weddings</a>
+        </h5>
+        <h5 class="col-2">
+            <a asp-controller="Login" asp-action="Logout">
+                Logout
+            </a>
+        </h5>
+    </div>
+    <div id="wedding-info-tab" class="row">
+        <div class="col-6">
+            <h4>
+                @ViewBag.wedding.Date.DayOfWeek, @ViewBag.wedding.Date.ToString("MMMM d, yyyy")
+            </h4>
+            <h4>Guests:</h4>
+            <ul>
+                @foreach(var attendance in @ViewBag.wedding.Users){
+                <li>@attendance.User.FirstName @attendance.User.LastName</li>
+                }
+            </ul>
+        </div>
+        <div class="col-6">
+            <iframe
+            width="600"
+            height="450"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=@ViewBag.key
+                &q=@ViewBag.wedding.Address" allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</div>

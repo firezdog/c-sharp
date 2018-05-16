@@ -1,0 +1,64 @@
+@using WeddingApp.Models;
+@{
+    ViewData["Title"] = "Main";
+}
+<div class="container">
+    <div id="header">
+        <h1>Welcome to the Wedding Planner</h1>
+        <p class="float-right"><a asp-controller="Login" asp-action="Logout">Logout</a></p>
+    </div>
+    <div id="wedding_table">
+        <table class="table">
+            <thead>
+                <th>Wedding</th>
+                <th>Date</th>
+                <th>Guests</th>
+                <th>Action</th>
+            </thead>
+            <tbody>
+                @foreach(var wedding in ViewBag.weddings){
+                <tr>
+                    <td><a asp-action="OneWeddingPage" asp-controller="Wedding" asp-route-WeddingId=@wedding.WeddingId>@wedding.WedderOne and @wedding.WedderTwo</a></td>
+                    <td>@wedding.Date.ToString("MMMM  d, yyyy")</td>
+                    <td>@wedding.Users.Count</td>
+                    
+                    @if(ViewBag.user.UserId == wedding.UserId){
+                    <td>
+                        <form asp-action="DeleteWedding" asp-controller="Wedding" asp-method="POST">
+                            <input type="hidden" name="WeddingId" value=@wedding.WeddingId>
+                            <button class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
+                    }
+                    else { 
+                    bool found = false;
+                    foreach (var a in wedding.Users){
+                    if (a.UserId == ViewBag.user.UserId){
+                        <td>
+                            <form asp-controller="Wedding" asp-method="POST" asp-action="UnRSVP">
+                                <input type="hidden" name="UserId" value=@ViewBag.user.UserId>
+                                <input type="hidden" name="WeddingId" value=@wedding.WeddingId>
+                                <button class="btn btn-info">Un-RSVP</button>
+                            </form>
+                        </td>                        
+                    found = true;
+                    break;
+                    }
+                    }
+                    @if (!found) {
+                    <td>
+                        <form asp-controller="Wedding" asp-method="POST" asp-action="RSVP">
+                            <input type="hidden" name="UserId" value=@ViewBag.user.UserId>
+                            <input type="hidden" name="WeddingId" value=@wedding.WeddingId>
+                            <button class="btn btn-info">RSVP</button>
+                        </form>
+                    </td>
+                    }
+                    }
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <a class="float-right" asp-action="NewWedding"><button class="btn btn-primary">Add Wedding</button></a>
+</div>

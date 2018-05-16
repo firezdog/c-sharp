@@ -1,0 +1,20 @@
+body {
+    margin: 6em;
+}
+
+#header h1, p {
+    display: inline-block;
+}
+
+#header p {
+    position: relative;
+    top: 1em;
+}
+
+#wedding-info-tab {
+    margin: 4em auto;
+}
+
+ul {
+    list-style: none;
+}
