@@ -1,0 +1,11 @@
+/home/firezdog/Documents/CodingDojo/c-sharp/UniversityApp/bin/Debug/netcoreapp2.0/UniversityApp.deps.json
+/home/firezdog/Documents/CodingDojo/c-sharp/UniversityApp/bin/Debug/netcoreapp2.0/UniversityApp.runtimeconfig.json
+/home/firezdog/Documents/CodingDojo/c-sharp/UniversityApp/bin/Debug/netcoreapp2.0/UniversityApp.runtimeconfig.dev.json
+/home/firezdog/Documents/CodingDojo/c-sharp/UniversityApp/bin/Debug/netcoreapp2.0/UniversityApp.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/UniversityApp/bin/Debug/netcoreapp2.0/UniversityApp.pdb
+/home/firezdog/Documents/CodingDojo/c-sharp/UniversityApp/obj/Debug/netcoreapp2.0/UniversityApp.csprojResolveAssemblyReference.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/UniversityApp/obj/Debug/netcoreapp2.0/UniversityApp.csproj.CoreCompileInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/UniversityApp/obj/Debug/netcoreapp2.0/UniversityApp.AssemblyInfoInputs.cache
+/home/firezdog/Documents/CodingDojo/c-sharp/UniversityApp/obj/Debug/netcoreapp2.0/UniversityApp.AssemblyInfo.cs
+/home/firezdog/Documents/CodingDojo/c-sharp/UniversityApp/obj/Debug/netcoreapp2.0/UniversityApp.dll
+/home/firezdog/Documents/CodingDojo/c-sharp/UniversityApp/obj/Debug/netcoreapp2.0/UniversityApp.pdb

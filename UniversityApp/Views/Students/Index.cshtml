@@ -1,0 +1,107 @@
+@model PaginatedList<UniversityApp.Models.Student>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-action="Index" method="GET">
+    <div class="form-actions no-color">
+        <p>
+            Find by name: <input type="text" name="searchString" value="@ViewData["currentFilter"]"/>
+            <input type="submit" value="Search" class="btn btn-primary">
+        </p>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" 
+                asp-route-searchString="@ViewData["CurrentFilter"]" 
+                asp-route-sortOrder=@ViewData["NameSortParm"]
+                asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                asp-route-page="@Model.PageIndex"
+                asp-route-pageSize="@ViewData["CurrentPageSize"]">Last Name</a>
+            </th>
+            <th>
+                First / Middle Name
+            </th>
+            <th>
+                <a asp-action="Index" 
+                asp-route-searchString="@ViewData["CurrentFilter"]" 
+                asp-route-sortOrder="@ViewData["DateSortParm"]"
+                asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                asp-route-page="@Model.PageIndex"
+                asp-route-pageSize="@ViewData["CurrentPageSize"]">Date of Enrollment</a>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstMidName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EnrollmentDate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+
+    </tbody>
+</table>
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<div class="container-fluid row">
+    <form asp-action="Index" method="GET">
+        <div class="form-actions no-color">
+            <p>
+                <input type="hidden" name="sortOrder" value="@ViewData["CurrentSort"]"/>
+                <input type="hidden" name="page" value="@Model.PageIndex"/>
+                <input type="hidden" name="currentFilter" value="@ViewData["CurrentFilter"]"/>
+                Page Size: <input min="1" class="col-2" type="number" name="pageSize"/>
+                <input type="submit" value="Submit" class="btn btn-primary">
+            </p>
+        </div>
+    </form>
+</div>
+
+<ul class="pagination">
+    <a asp-action="Index"
+        asp-route-sortOrder="@ViewData["CurrentSort"]"
+        asp-route-page="@(Model.PageIndex - 1)"
+        asp-route-currentFilter="@ViewData["CurrentFilter"]"
+        asp-route-pageSize="@ViewData["CurrentPageSize"]"
+        class="btn page-link @prevDisabled">
+        &laquo;
+    </a>
+    <a asp-action="Index"
+        asp-route-sortOrder="@ViewData["CurrentSort"]"
+        asp-route-page="@(Model.PageIndex + 1)"
+        asp-route-currentFilter="@ViewData["CurrentFilter"]"
+        asp-route-pageSize="@ViewData["CurrentPageSize"]"
+        class="btn page-link @nextDisabled">
+        &raquo;
+    </a>
+</ul>
